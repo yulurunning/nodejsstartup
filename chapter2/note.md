@@ -38,3 +38,11 @@
   };
 })
 ```
+### NPM
+```
+npm install express
+```
+
+### 规范
+- CommonJS
+- AMD ([Asynchronous Module Definition](https://github.com/amdjs/amdjs-api/wiki/AMD))
