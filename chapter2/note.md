@@ -22,3 +22,19 @@
 > 2. 文件模块(用户编写)
 2. 文件定位
 3. 编译执行
+
+### 包装全局变量
+- require
+- exports
+- module
+- __filename
+- __dirname
+
+```js
+(function(exports, require, module, __filename, __dirname){
+  var math = require('math');
+  exports.area = function(radius) {
+    return math.PI * radius * radius;
+  };
+})
+```
