@@ -18,3 +18,15 @@ Node给出的方案:
 - 事件循环
 - 观察者
 - 请求对象
+
+非I/O的异步API
+- 定时器  
+*setTimeout()*  
+*setInterval()*  
+
+- process.nextTick()
+- setImmediate()  
+**process.tick()优先级高于setImmediate()**  
+process.nextTick()属于idle观察者  
+setImmediate()属于check观察者  
+idle观察者 > I/O 观察者 > check观察者
