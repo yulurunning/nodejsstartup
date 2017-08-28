@@ -9,3 +9,11 @@
 >   }
 >}
 >```
+
+**后续传递风格(Continuation Passing Style)**:  
+将函数的业务重点从返回值转移到了回调函数中。  
+```js
+function foo(x, bar) {
+   return bar(x);
+}
+```
