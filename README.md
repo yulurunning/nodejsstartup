@@ -10,4 +10,4 @@ She is a owner of a flower shop named *[LA ROSE](http://f.amap.com/6mW5b_0173m8n
 [See more information.](http://mp.weixin.qq.com/s/fz6RzIqyKEnVWH6jyZ-rTg)    
 [On line shop here.](https://weidian.com/?userid=1224485618)  
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/PVFwibJDoasSOcribxTb8plDXicqDn6hU7o3ts7NBpewiaRATyzwyRtZVVh9Rn9c1klUoNSynINxbhJg0QwWKr3iadw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![](https://si.geilicdn.com/bj-vshop-1224485618-1498232178969-1849861895_1080_540.jpg?w=640&amp;h=330&amp;cp=1)
