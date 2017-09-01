@@ -17,3 +17,11 @@ function foo(x, bar) {
    return bar(x);
 }
 ```
+结合Node提供的最基本的事件模块，事件的处理方式正是基于高阶函数的特性来完成的。
+
+```js
+var emitter = new events.EventEmitter();
+emitter.on('event_foo', function() {
+    // TODO
+});
+```
