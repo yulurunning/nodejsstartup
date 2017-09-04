@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yun Demo</title>
+    <style>
+      #time{
+        font-size: 100pt;
+        margin: 10px auto;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="time">
+        0
+    </div>
+  </body>
+  <script type="text/javascript">
+    var data = 1;
+    function getData() {
+      return data++;
+    }
+    function displayData() {
+      document.getElementById('time').innerHTML = getData();
+    }
+    setInterval(displayData, 1000);
+  </script>
+</html>
