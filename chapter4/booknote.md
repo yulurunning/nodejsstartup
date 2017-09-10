@@ -33,3 +33,17 @@ reduceRight()
 filter()  
 every()  
 some()  
+
+偏函数:  
+简单理解就是函数工厂，通过一个函数创建其他函数。
+```js
+var toString = Object.prototype.toString;
+var isType = funciton(type) {
+  return function(obj) {
+    return toString.call(obj) == '[object ' + type + ']';
+  }
+}
+
+var isString = isType('String');
+console.log(isString('abc'));
+```
